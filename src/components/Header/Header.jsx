@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export const Header = () => {
   return (
-    <header className=" pt-8 absolute"> 
+    <header className=" pt-8 absolute w-screen"> 
         <div className=" flex justify-between h-[96px] items-center pl-6 gap-[550px] ">
         <Link to="/">
         <figure>

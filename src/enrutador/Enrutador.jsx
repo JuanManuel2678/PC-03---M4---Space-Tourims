@@ -14,9 +14,6 @@ export const Enrutador = () => {
         <Route path='/page/01 DESTINATION' element={<Destination />}/>
         <Route path='/page/02 CREW' element={<Crew />}/>
         <Route path='/page/03 TECHNOLOGY' element={<Technology />}/>
-
-
-
     </Routes>
   )
 }
