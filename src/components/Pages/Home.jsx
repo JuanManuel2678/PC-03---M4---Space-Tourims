@@ -1,5 +1,9 @@
+import { Link } from 'react-router-dom'
+
 export const Home = () => {
+
   return (
+    
     <main className="flex gap-4 justify-center text-white w-screen h-full  bg-[url('/home/background-home-desktop.jpg')] bg-cover pt-[190px] ">
 
       <div className="w-1/2 h-full p-2 flex items-center justify-center ">
@@ -21,9 +25,13 @@ export const Home = () => {
       </div>
 
       <div className="w-1/2 flex justify-center items-center ">
-        <div className="bg-white text-black rounded-full w-[274px] h-[274px] flex justify-center items-center text-[32px] font-Bellefair">
-          EXPLORE
-        </div>
+
+          <Link to='/page/01 DESTINATION'>
+               <div className="bg-white text-black rounded-full w-[274px] h-[274px] flex justify-center items-center text-[32px] font-Bellefair">
+               EXPLORE
+               </div>
+          </Link>
+
       </div>
 
     </main>
